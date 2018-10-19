@@ -10,7 +10,7 @@ import json
 with open('harryPotterCharacters.json') as f:
     characters = [x.lower() for x in json.load(f)["characters"]]
 
-    import re
+import re
 from datetime import datetime
 from datetime import timedelta
 from dateutil import parser
@@ -131,6 +131,9 @@ class FanFicSpider(scrapy.Spider):
         'LOG_LEVEL': logging.INFO,
         'CONCURRENT_REQUESTS' : 100,
         'COOKIES_ENABLED' : False,
+        'DEPTH_PRIORITY' : 1,
+        'SCHEDULER_DISK_QUEUE' : 'scrapy.squeue.PickleFifoDiskQueue',
+        'SCHEDULER_MEMORY_QUEUE' : 'scrapy.squeue.FifoMemoryQueue',
     }
        
     def parseUserPage(self, response):
