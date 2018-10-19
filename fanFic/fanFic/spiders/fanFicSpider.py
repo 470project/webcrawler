@@ -128,7 +128,9 @@ class FanFicSpider(scrapy.Spider):
         #'https://www.fanfiction.net/r/8636004/'
     ]
     custom_settings = {
-        'LOG_LEVEL': logging.WARNING
+        'LOG_LEVEL': logging.INFO,
+        'CONCURRENT_REQUESTS' : 100,
+        'COOKIES_ENABLED' : False,
     }
        
     def parseUserPage(self, response):
@@ -137,24 +139,24 @@ class FanFicSpider(scrapy.Spider):
         #follow links to their stories and reviews
         for elem in response.xpath('//div[@class="z-list mystories"]').xpath(".//@href"):
             if(isStoryLink(elem.extract())):
-                nextLinks[elem.extract()] = self.parse;
+                nextLinks[elem.extract()] = self.parse
             if(isReviewLink(elem.extract())):
-                nextLinks[elem.extract()] = self.parseReview;
+                nextLinks[elem.extract()] = self.parseReview
         
         #get the favorites
         favorites = []
         for elem in response.xpath('//div[@class="z-list favstories"]'):
-            favStory = '';
+            favStory = ''
             favAuthor = ''
             for link in elem.xpath('./a//@href').extract():
                 if(isUserLink(link)):
                     favAuthor = link
-                    nextLinks[link] = self.parseUserPage;
+                    nextLinks[link] = self.parseUserPage
                 elif(isStoryLink(link)):
                     favStory = link
-                    nextLinks[link] = self.parse;
+                    nextLinks[link] = self.parse
                 elif(isReviewLink(link)):
-                    nextLinks[link] = self.parseReview;
+                    nextLinks[link] = self.parseReview
             favorites.append({
                 'favStory' : favStory,
                 'favAuthor': favAuthor
@@ -233,7 +235,7 @@ class FanFicSpider(scrapy.Spider):
                 'pageType': 'review',
                 'reviewOf': reviewOf,
                 'reviewer': reviewer,
-                'reviewBody': reviewBody,
+                #'reviewBody': reviewBody,
                 'sentimentScore': sentimentScore
             }
             
