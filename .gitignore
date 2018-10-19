@@ -1,4 +1,4 @@
-fanFic\crawls\*
+fanFic/crawls/
 *.json
 fanficResult.json
 *.jl
