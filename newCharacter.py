@@ -1,4 +1,4 @@
-import json
+'''import json
 #old code lines 22-23 and 204-210
 with open('harryPotterCharacters.json') as f:
     characters = [x.lower() for x in json.load(f)["characters"]]
@@ -10,7 +10,9 @@ for character in characters:
         if(character not in characterFreq):
 			characterFreq[character] = 0
     characterFreq[character] += text.count(character)
-	
+	'''
+
+text = "harry"
 
 #new code
 import json
@@ -21,7 +23,7 @@ with open('longListHarryPotterCharacters.json') as f:
     for character in jsonCharacters:  
         for name in jsonCharacters[character]:
             characters[character].append(name.lower())
-	
+    
 #find relevant characters
 characterFreq = {}
 for character, names in characters.items():
@@ -30,3 +32,4 @@ for character, names in characters.items():
 			if(character not in characterFreq):
 				characterFreq[character] = 0
 			characterFreq[character] += text.count(name)	
+

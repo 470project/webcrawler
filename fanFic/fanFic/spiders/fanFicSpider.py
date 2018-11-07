@@ -7,8 +7,13 @@ from scrapy.utils.log import configure_logging
 
 
 import json
-with open('harryPotterCharacters.json') as f:
-    characters = [x.lower() for x in json.load(f)["characters"]]
+from collections import defaultdict
+with open('longListHarryPotterCharacters.json') as f:
+    jsonCharacters = json.load(f)["characters"]
+    characters = defaultdict(list)
+    for character in jsonCharacters:  
+        for name in jsonCharacters[character]:
+            characters[character].append(name.lower())
 
 import re
 from datetime import datetime
@@ -200,18 +205,19 @@ class FanFicSpider(scrapy.Spider):
         
         #find relevant characters
         characterFreq = {}
-        for character in characters:
-            if(character in text):
-                if(character not in characterFreq):
-                    characterFreq[character] = 0
-                characterFreq[character] += text.count(character)
+        for character, names in characters.items():
+            for name in names:
+                if(name in text):
+                    if(character not in characterFreq):
+                        characterFreq[character] = 0
+                    characterFreq[character] += text.count(name)	
           
         #get author
         author = ''
         for link in profile_top.xpath('.//@href'):
             if(isUserLink(link.extract())):
                 author = link.extract()
-                nextLinks[author] = self.parseUserPage;
+                nextLinks[author] = self.parseUserPage
         
         yield {
             'pageType': 'story',
@@ -219,7 +225,7 @@ class FanFicSpider(scrapy.Spider):
             'author': author,
             'title': response.xpath('//title/text()').extract_first(),
             'storyType': storyType,
-            'abstract': abstract,
+            #'abstract': abstract,
             'rating': rating,
             'otherInfo': getOtherInfoAsJson(otherInfo),
             'date': date.strftime('%Y-%m-%d %M:%S'),
