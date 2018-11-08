@@ -225,7 +225,7 @@ class FanFicSpider(scrapy.Spider):
             'author': author,
             'title': response.xpath('//title/text()').extract_first(),
             'storyType': storyType,
-            #'abstract': abstract,
+            'abstract': abstract,
             'rating': rating,
             'otherInfo': getOtherInfoAsJson(otherInfo),
             'date': date.strftime('%Y-%m-%d %M:%S'),
@@ -252,7 +252,7 @@ class FanFicSpider(scrapy.Spider):
                 'pageType': 'review',
                 'reviewOf': reviewOf,
                 'reviewer': reviewer,
-                #'reviewBody': reviewBody,
+                'reviewBody': reviewBody,
                 'sentimentScore': sentimentScore
             }
             
