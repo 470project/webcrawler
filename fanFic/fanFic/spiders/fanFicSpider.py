@@ -202,38 +202,38 @@ class FanFicSpider(scrapy.Spider):
         date = convertDate(profile_top.xpath('.//span/text()').extract()[3])
         storyType = response.xpath('//div[@id="pre_story_links"]').xpath('.//a/@href').extract()[-1]
         text = response.xpath('//div[@id="storytext"]').extract_first().lower()
-        
-        #find relevant characters
-        characterFreq = {}
-        for character, names in characters.items():
-            for name in names:
-                if(name in text):
-                    if(character not in characterFreq):
-                        characterFreq[character] = 0
-                    characterFreq[character] += text.count(name)	
-          
-        #get author
-        author = ''
-        for link in profile_top.xpath('.//@href'):
-            if(isUserLink(link.extract())):
-                author = link.extract()
-                nextLinks[author] = self.parseUserPage
-        
-        yield {
-            'pageType': 'story',
-            'storyLink': storyName,
-            'author': author,
-            'title': response.xpath('//title/text()').extract_first(),
-            'storyType': storyType,
-            'abstract': abstract,
-            'rating': rating,
-            'otherInfo': getOtherInfoAsJson(otherInfo),
-            'date': date.strftime('%Y-%m-%d %M:%S'),
-            'characters': characterFreq
-        }
-        
-        for link, func in nextLinks.items():
-            yield response.follow(link, callback=func)
+        if(str(storyType) == '/book/Harry-Potter/'):
+            #find relevant characters
+            characterFreq = {}
+            for character, names in characters.items():
+                for name in names:
+                    if(name in text):
+                        if(character not in characterFreq):
+                            characterFreq[character] = 0
+                        characterFreq[character] += text.count(name)	
+            
+            #get author
+            author = ''
+            for link in profile_top.xpath('.//@href'):
+                if(isUserLink(link.extract())):
+                    author = link.extract()
+                    nextLinks[author] = self.parseUserPage
+            
+            yield {
+                'pageType': 'story',
+                'storyLink': storyName,
+                'author': author,
+                'title': response.xpath('//title/text()').extract_first(),
+                'storyType': storyType,
+                'abstract': abstract,
+                'rating': rating,
+                'otherInfo': getOtherInfoAsJson(otherInfo),
+                'date': date.strftime('%Y-%m-%d %M:%S'),
+                'characters': characterFreq
+            }
+            
+            for link, func in nextLinks.items():
+                yield response.follow(link, callback=func)
 
     def parseReview(self, response):
         nextLinks = {}
