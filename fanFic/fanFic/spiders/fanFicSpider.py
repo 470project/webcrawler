@@ -7,8 +7,13 @@ from scrapy.utils.log import configure_logging
 
 
 import json
-with open('harryPotterCharacters.json') as f:
-    characters = [x.lower() for x in json.load(f)["characters"]]
+from collections import defaultdict
+with open('longListHarryPotterCharacters.json') as f:
+    jsonCharacters = json.load(f)["characters"]
+    characters = defaultdict(list)
+    for character in jsonCharacters:  
+        for name in jsonCharacters[character]:
+            characters[character].append(name.lower())
 
 import re
 from datetime import datetime
@@ -55,7 +60,7 @@ def convertDate(strDate):
     if(mHours is not None):
         delta = timedelta(hours = int(mHours.group('hours'))) 
     if(mDate is not None):
-        return parser.parse(strDate)
+        return parser.parseStory(strDate)
     return now + delta
 
 def getOtherInfoAsJson(other_stuff):
@@ -121,7 +126,8 @@ sid = SentimentIntensityAnalyzer()
 class FanFicSpider(scrapy.Spider):
     name = "fanFic"
     start_urls = [
-        'https://www.fanfiction.net/s/13025005/1/A-Twist-In-Time'
+        'https://www.fanfiction.net/book/Harry-Potter/?&srt=4&r=103'
+        #'https://www.fanfiction.net/s/13025005/1/A-Twist-In-Time'
         #'https://www.fanfiction.net/u/4805578/vandenburgs'
         #'https://www.fanfiction.net/s/13090372/1/This-Labyrinth-of-Suffering'
         #'https://www.fanfiction.net/s/13059900/1/La-For%C3%AAt-des-%C3%82mes-Bris%C3%A9es',
@@ -135,14 +141,21 @@ class FanFicSpider(scrapy.Spider):
         'SCHEDULER_DISK_QUEUE' : 'scrapy.squeue.PickleFifoDiskQueue',
         'SCHEDULER_MEMORY_QUEUE' : 'scrapy.squeue.FifoMemoryQueue',
     }
-       
+    
+    def parse(self, response):
+        nextLinks = {}
+        for elem in response.xpath('//a[@class="stitle"]').xpath(".//@href"):
+            nextLinks[elem.extract()] = self.parseStory
+        for link, func in nextLinks.items():
+            yield response.follow(link, callback=func)
+
     def parseUserPage(self, response):
         profile_top = response.xpath('//div[@id="content_wrapper_inner"]')
         nextLinks = {}
         #follow links to their stories and reviews
         for elem in response.xpath('//div[@class="z-list mystories"]').xpath(".//@href"):
             if(isStoryLink(elem.extract())):
-                nextLinks[elem.extract()] = self.parse
+                nextLinks[elem.extract()] = self.parseStory
             if(isReviewLink(elem.extract())):
                 nextLinks[elem.extract()] = self.parseReview
         
@@ -157,7 +170,7 @@ class FanFicSpider(scrapy.Spider):
                     nextLinks[link] = self.parseUserPage
                 elif(isStoryLink(link)):
                     favStory = link
-                    nextLinks[link] = self.parse
+                    nextLinks[link] = self.parseStory
                 elif(isReviewLink(link)):
                     nextLinks[link] = self.parseReview
             favorites.append({
@@ -176,7 +189,7 @@ class FanFicSpider(scrapy.Spider):
         for link, func in nextLinks.items():
             yield response.follow(link, callback=func)
         
-    def parse(self, response):
+    def parseStory(self, response):
         nextLinks = {}
         profile_top = response.xpath('//div[@id="profile_top"]')
         storyName = response.xpath('//link[@rel="canonical"]//@href').extract_first()
@@ -192,18 +205,19 @@ class FanFicSpider(scrapy.Spider):
         
         #find relevant characters
         characterFreq = {}
-        for character in characters:
-            if(character in text):
-                if(character not in characterFreq):
-                    characterFreq[character] = 0
-                characterFreq[character] += text.count(character)
+        for character, names in characters.items():
+            for name in names:
+                if(name in text):
+                    if(character not in characterFreq):
+                        characterFreq[character] = 0
+                    characterFreq[character] += text.count(name)	
           
         #get author
         author = ''
         for link in profile_top.xpath('.//@href'):
             if(isUserLink(link.extract())):
                 author = link.extract()
-                nextLinks[author] = self.parseUserPage;
+                nextLinks[author] = self.parseUserPage
         
         yield {
             'pageType': 'story',
@@ -238,7 +252,7 @@ class FanFicSpider(scrapy.Spider):
                 'pageType': 'review',
                 'reviewOf': reviewOf,
                 'reviewer': reviewer,
-                #'reviewBody': reviewBody,
+                'reviewBody': reviewBody,
                 'sentimentScore': sentimentScore
             }
             

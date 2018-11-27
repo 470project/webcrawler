@@ -1,0 +1,1380 @@
+{
+  "characters": {
+    "Harry Potter": [
+      "Harry"
+    ],
+    "Albus Dumbledore": [
+      "Dumbledore"
+    ],
+    "Aberforth Dumbledore": [
+      "Aberforth"
+    ],
+    "Voldemort": [
+      "Voldemort"
+    ],
+    "Armando Dippet": [
+      "Dippet",
+      "Armando"
+    ],
+    "AndrewKirke": [
+      "Kirke",
+      "Andrew"
+    ],
+    "Aidan Lynch": [
+      "Lynch",
+      "Aidan"
+    ],
+    "Augustus Pye": [
+      "Pye"
+    ],
+    "Aurora Sinistra": [
+      "Aurora",
+      "Sinistra"
+    ],
+    "Abraxas Malfoy": [
+      "Abraxas"
+    ],
+    "Adrian Pucey": [
+      "Adrian",
+      "Pucey"
+    ],
+    "Albus Severus Potter": [
+      "Albus Severus",
+      "Albus Potter"
+    ],
+    "Alastor Moody": [
+      "Alastor",
+      "Moody"
+    ],
+    "Albert Runcorn": [
+      "Albert",
+      "Runcorn"
+    ],
+    "Alecto Carrow": [
+      "Alecto",
+      "Carrow"
+    ],
+    "Alexia Black": [
+      "Alexia"
+    ],
+    "Alice Longbottom": [
+      "Alice"
+    ],
+    "Alicia Spinnet": [
+      "Alicia",
+      "Spinnet"
+    ],
+    "Alphard Black": [
+      "Alphard"
+    ],
+    "Ambrosius Flume": [
+      "Ambrosius"
+    ],
+    "Amelia Bones": [
+      "Amelia"
+    ],
+    "Amos Diggory": [
+      "Amos"
+    ],
+    "Amy Benson": [
+      "Amy",
+      "Benson"
+    ],
+    "Amycus Carrow": [
+      "Amycus"
+    ],
+    "Andromeda Tonks": [
+      "Andromeda"
+    ],
+    "Angelica Cole": [
+      "Angelica",
+      "Cole"
+    ],
+    "Angelina Johnson": [
+      "Angelina",
+      "Johnson"
+    ],
+    "Anthony Goldstein": [
+      "Anthony",
+      "Goldstein"
+    ],
+    "Antioch Peverell": [
+      "Antioch"
+    ],
+    "Antonin Dolohov": [
+      "Antonin",
+      "Dolohov"
+    ],
+    "Arabella Figg": [
+      "Arabella",
+      "Figg"
+    ],
+    "Aragog": [
+      "Aragog"
+    ],
+    "Arcturus Black": [
+      "Arcturus"
+    ],
+    "Argus Filch": [
+      "Argus",
+      "Filch"
+    ],
+    "Ariana Dumbledore": [
+      "Ariana"
+    ],
+    "Arthur Weasely": [
+      "Arthur"
+    ],
+    "Astoria Greengrass": [
+      "Astoria"
+    ],
+    "Audrey Weasley": [
+      "Audrey"
+    ],
+    "Augusta Longbottom": [
+      "Augusta"
+    ],
+    "Augustus Rookwood": [
+      "Rookwood"
+    ],
+    "Avery": [
+      "Avery"
+    ],
+    "Bane": [
+      "Bane"
+    ],
+    "Barnabas Cuffe": [
+      "Barnabas",
+      "Cuffe"
+    ],
+    "Barnaby Lee": [
+      "Barnaby"
+    ],
+    "Barty Crouch Jr.": [
+      "Barty Crouch Jr."
+    ],
+    "Barty Crouch Sr.": [
+      "Barty Crouch Sr."
+    ],
+    "Basilisk": [
+      "Basilisk"
+    ],
+    "Bathilda Bagshot": [
+      "Bathilda",
+      "Bagshot"
+    ],
+    "Bellatrix Lestrange": [
+      "Bellatrix"
+    ],
+    "Belvina Black": [
+      "Belvina"
+    ],
+    "Ben Cooper": [
+      "Ben",
+      "Cooper"
+    ],
+    "Benjy Fenwick": [
+      "Benjy",
+      "Fenwick"
+    ],
+    "Bertha Jorkins": [
+      "Bertha",
+      "Jorkins"
+    ],
+    "Bill Weasley": [
+      "Bill"
+    ],
+    "Blaise Zabini": [
+      "Blaise"
+    ],
+    "Bloody Baron": [
+      "Bloddy Baron"
+    ],
+    "Bob Hitchens": [
+      "Bob",
+      "Hitchens"
+    ],
+    "Buckbeak": [
+      "Buckbeak"
+    ],
+    "Cornelilus Fudge": [
+      "Cornelius",
+      "Fudge"
+    ],
+    "Cassius Warrington": [
+      "Cassius",
+      "Warrington"
+    ],
+    "Cadmus Peverell": [
+      "Cadmus"
+    ],
+    "Cadwallader": [
+      "Cadwallader"
+    ],
+    "Callidora Black": [
+      "Callidora"
+    ],
+    "Caradoc Dearborn": [
+      "Caradoc",
+      "Dearborn"
+    ],
+    "Caspar Crouch": [
+      "Caspar"
+    ],
+    "Cassiopeia Black": [
+      "Cassiopeia"
+    ],
+    "Cedrella Black": [
+      "Cedrella"
+    ],
+    "Cedric Diggory": [
+      "Cedric"
+    ],
+    "Chadwick Boot": [
+      "Chadwick"
+    ],
+    "Charis Black": [
+      "Charis"
+    ],
+    "Charity Burbage": [
+      "Charity",
+      "Burbage"
+    ],
+    "Charlie Weasley": [
+      "Charlie"
+    ],
+    "Charlus Potter": [
+      "Charlus"
+    ],
+    "Cho Chang": [
+      "Cho",
+      "Chang"
+    ],
+    "Colin Creevey": [
+      "Colin"
+    ],
+    "Connolly": [
+      "Connolly"
+    ],
+    "Cormac Mclaggen": [
+      "Cormac",
+      "Mclaggen"
+    ],
+    "Credence Barebone": [
+      "Credence",
+      "Barebone"
+    ],
+    "Crookshanks": [
+      "Crookshanks"
+    ],
+    "Cuthbert Binns": [
+      "Cuthbert",
+      "Binns"
+    ],
+    "Cygnus Black": [
+      "Cygnus"
+    ],
+    "Daphne Greengrass": [
+      "Daphe"
+    ],
+    "Dean Thomas": [
+      "Dean",
+      "Thomas"
+    ],
+    "Death": [
+      "Death"
+    ],
+    "Dedalus Diggle": [
+      "Dedalus",
+      "Diggle"
+    ],
+    "Delphi Riddle": [
+      "Delphi"
+    ],
+    "Demelza Robins": [
+      "Demelza",
+      "Robins"
+    ],
+    "Dementors": [
+      "Dementors"
+    ],
+    "Dennis Bishop": [
+      "Bishop"
+    ],
+    "Dennis Creevey": [
+      "Dennis Creevey"
+    ],
+    "Derek": [
+      "Derek"
+    ],
+    "Dilys Derwent": [
+      "Dilys",
+      "Derwent"
+    ],
+    "Dirk Cresswell": [
+      "Dirk",
+      "Cresswell"
+    ],
+    "Dobby": [
+      "Dobby"
+    ],
+    "Dolores Umbridge": [
+      "Dolores",
+      "Umbridge"
+    ],
+    "Dominique Weasley": [
+      "Dominique"
+    ],
+    "Donaghan Tremlett": [
+      "Donaghan",
+      "Tremlett"
+    ],
+    "Dorcas Meadowes": [
+      "Dorcas",
+      "Meadowes"
+    ],
+    "Dorea Black/Potter": [
+      "Dorea"
+    ],
+    "Dr. Granger": [
+      "Dr. Granger"
+    ],
+    "Draco Malfoy": [
+      "Draco"
+    ],
+    "Druella Black": [
+      "Druella"
+    ],
+    "Dudley Dursley": [
+      "Dudley"
+    ],
+    "Edgar Bones": [
+      "Edgar"
+    ],
+    "Eduardus Black": [
+      "Eduardus"
+    ],
+    "Eileen Prince": [
+      "Eileen",
+      "Prince"
+    ],
+    "Eldred Worple": [
+      "Eldred",
+      "Worple"
+    ],
+    "Eleanor Branstone": [
+      "Eleanor",
+      "Branstone"
+    ],
+    "Elladora Black": [
+      "Elladora"
+    ],
+    "Eloise Midgen": [
+      "Eloise",
+      "Midgen"
+    ],
+    "Elphias Doge": [
+      "Elphias",
+      "Doge"
+    ],
+    "Elphinstone Urquhart": [
+      "Elphinstone",
+      "Urquhart"
+    ],
+    "Emmeline Vance": [
+      "Emmeline",
+      "Vance"
+    ],
+    "Ernie Macmillan": [
+      "Ernie Macmillan"
+    ],
+    "Ernie Prang": [
+      "Prang"
+    ],
+    "Euphemia Potter": [
+      "Euphemia"
+    ],
+    "Eupraxia Mole": [
+      "Eupraxia",
+      "Mole"
+    ],
+    "Evan Rosier": [
+      "Evan",
+      "Rosier"
+    ],
+    "Filius Flitwick": [
+      "Filius",
+      "Flitwick"
+    ],
+    "Finbar Quigley": [
+      "Finbar",
+      "Quigley"
+    ],
+    "Fabian Prewett": [
+      "Fabian"
+    ],
+    "Fang": [
+      "Fang"
+    ],
+    "Fat Friar": [
+      "Fat Friar"
+    ],
+    "Fawkes": [
+      "Fawkes"
+    ],
+    "Fay Dunbar": [
+      "Fay",
+      "Dunbar"
+    ],
+    "Fenrir Greyback": [
+      "Fenrir",
+      "Greyback"
+    ],
+    "Firenze": [
+      "Firenze"
+    ],
+    "Fleamont Potter": [
+      "Fleamont"
+    ],
+    "Fleur Delacour": [
+      "Fleur"
+    ],
+    "Flora Carrow": [
+      "Flora"
+    ],
+    "Florean Fortescue": [
+      "Florean",
+      "Fortescue"
+    ],
+    "Florence": [
+      "Florence"
+    ],
+    "Fluffy": [
+      "Fluffy"
+    ],
+    "Frank Bryce": [
+      "Bryce"
+    ],
+    "Frank Longbottom": [
+      "Frank Longbottom"
+    ],
+    "Fred weasley": [
+      "Fred"
+    ],
+    "Fred weasley II": [
+      "Fred Weasley II"
+    ],
+    "Fridwulfa": [
+      "Fridwulfa"
+    ],
+    "Gwenog Jones": [
+      "Gwenog"
+    ],
+    "Griselda Marchbanks": [
+      "Griselda",
+      "Marchbanks"
+    ],
+    "Galatea Merrythought": [
+      "Galatea",
+      "Merrythought"
+    ],
+    "Graham Montague": [
+      "Graham",
+      "montague"
+    ],
+    "Garrick Ollivander": [
+      "Garrick",
+      "Ollivander"
+    ],
+    "Gabrielle Delacour": [
+      "Gabrielle"
+    ],
+    "Gellert Grindlewald": [
+      "Gellert",
+      "Grindlewald"
+    ],
+    "Gemma Farley": [
+      "Gemma",
+      "Farley"
+    ],
+    "George weasley": [
+      "George"
+    ],
+    "Giant Squid": [
+      "Giant Squid"
+    ],
+    "Gibbon": [
+      "Gibbon"
+    ],
+    "Gideon Crumb": [
+      "Crumb"
+    ],
+    "Gideon Potter": [
+      "Gideon Potter"
+    ],
+    "Gilderoy Lockhart": [
+      "Gilderoy",
+      "Lockhart"
+    ],
+    "Ginny weasley": [
+      "Ginny"
+    ],
+    "Godric Gryffindor": [
+      "Godric"
+    ],
+    "Gormlaith Gaunt": [
+      "Gormlaith"
+    ],
+    "Grawp": [
+      "Grawp"
+    ],
+    "Gregory Goyle": [
+      "Gregory",
+      "Goyle"
+    ],
+    "Griphook": [
+      "Griphook"
+    ],
+    "Hannah Abbott": [
+      "Hannah",
+      "Abbott"
+    ],
+    "Hardwin Potter": [
+      "Hardwin"
+    ],
+    "Harfang Longbottom": [
+      "Harfang"
+    ],
+    "Harper": [
+      "Harper"
+    ],
+    "Hasan Mostafa": [
+      "Hasan",
+      "Mostafa"
+    ],
+    "Heathcote Barbary": [
+      "Heathcote",
+      "Barbary"
+    ],
+    "Hedwig": [
+      "Hedwig"
+    ],
+    "Helena Ravenclaw": [
+      "Helena"
+    ],
+    "Helga Hufflepuff": [
+      "Helga"
+    ],
+    "Henry Potter": [
+      "Henry"
+    ],
+    "Hepzibah Smith": [
+      "Hepzibah"
+    ],
+    "Herbert Burke": [
+      "Herbert",
+      "Burke"
+    ],
+    "Herman Wintringham": [
+      "Herman",
+      "Wintringham"
+    ],
+    "Hermione Granger": [
+      "Hermione"
+    ],
+    "Herpo the Foul": [
+      "Herpo the Foul"
+    ],
+    "Hesper Gamp": [
+      "Gamp"
+    ],
+    "Hesper Black": [
+      "Hesper Black"
+    ],
+    "Hestia Carrow": [
+      "Hestia Carrow"
+    ],
+    "Hestia Jones": [
+      "Hestia Jones"
+    ],
+    "Hope Howell": [
+      "Hope Howell",
+      "Hope Lupin"
+    ],
+    "Horace Slughorn": [
+      "Horace",
+      "Slughorn"
+    ],
+    "Hugo Weasley": [
+      "Hugo"
+    ],
+    "Igor Karkaroff": [
+      "Igor",
+      "Karkaroff"
+    ],
+    "Irma Pince": [
+      "Irma",
+      "Pince"
+    ],
+    "Ivan Volkov": [
+      "Ivan",
+      "Volkov"
+    ],
+    "Ignatius Prewett": [
+      "Ignatius"
+    ],
+    "Ignotus Peverell": [
+      "Ignotus"
+    ],
+    "Iolanthe Peverell": [
+      "Iolanathe"
+    ],
+    "Irma Crabbe": [
+      "Irma"
+    ],
+    "Isla Black": [
+      "Isla"
+    ],
+    "Isobel Middleton": [
+      " Middleton"
+    ],
+    "Isobel Macdougal": [
+      "Isobel Macdougal"
+    ],
+    "Isolt Sayre": [
+      "Isolt"
+    ],
+    "Ivanova": [
+      "Ivanova"
+    ],
+    "John Dawlish": [
+      "Dawlish"
+    ],
+    "Jack Sloper": [
+      "Jack",
+      "Sloper"
+    ],
+    "Josef Wronski": [
+      "Josef",
+      "Wronski"
+    ],
+    "Jacob": [
+      "Jacob"
+    ],
+    "James Potter": [
+      "James Potter"
+    ],
+    "James Steward": [
+      "James Steward"
+    ],
+    "James Sirius Potter": [
+      "James Sirius"
+    ],
+    "Jason Samuels": [
+      "Jason",
+      "Samuels"
+    ],
+    "Jeremy Stretton": [
+      "Jeremy",
+      "Stretton"
+    ],
+    "Jimmy Peakes": [
+      "Jimmy",
+      "Peakes"
+    ],
+    "Justin Finch-fletchley": [
+      "Justin",
+      "Finch-fletchley"
+    ],
+    "Karkaroff's Aide": [
+      "Karkaroff's Aide"
+    ],
+    "Karl Jenkins": [
+      "Karl",
+      "Jenkins"
+    ],
+    "Katie Bell": [
+      "Katie",
+      "Bell"
+    ],
+    "Kendra Dumbledore": [
+      "Kendra"
+    ],
+    "Kevin Entwhistle": [
+      "Kevin",
+      "Entwhistle"
+    ],
+    "Kingsley Shacklebolt": [
+      "Kingsley",
+      "Shacklebolt"
+    ],
+    "Kirley Duke": [
+      "Kirley",
+      "Duke"
+    ],
+    "Kreacher": [
+      "Kreacher"
+    ],
+    "Lily Moon": [
+      "Lily Moon"
+    ],
+    "Ladislaw Zamojski": [
+      "Ladislaw",
+      "Zamojski"
+    ],
+    "Lev Zograf": [
+      "Zograf"
+    ],
+    "Lorcan d'Eath": [
+      "d'Eath"
+    ],
+    "Laura Madley": [
+      "Laura",
+      "Madley"
+    ],
+    "Lavender Brown": [
+      "Lavender",
+      "Brown"
+    ],
+    "Leanne": [
+      "Leanne"
+    ],
+    "Lee Jordan": [
+      "Jordan"
+    ],
+    "Levski": [
+      "Levski"
+    ],
+    "Licorus Black": [
+      "Licorus"
+    ],
+    "Lily Evans Potter": [
+      "Lily Evans"
+    ],
+    "Lily Luna Potter": [
+      "Lily Luna"
+    ],
+    "Lisa Cullen": [
+      "Cullen"
+    ],
+    "Lisa Turpin": [
+      "Turpin"
+    ],
+    "Lorcan Scamander": [
+      "Lorcan Scamander"
+    ],
+    "Louis Weasley": [
+      "Louis"
+    ],
+    "Lucius Malfoy": [
+      "Lucius"
+    ],
+    "Lucretia Black": [
+      "Lucretia"
+    ],
+    "Lucy Weasley": [
+      "lucy"
+    ],
+    "Ludo Bagman": [
+      "Ludo",
+      "Bagman"
+    ],
+    "Luna Lovegood": [
+      "Luna Lovegood"
+    ],
+    "Lyall Lupin": [
+      "Lyall"
+    ],
+    "Lycoris Black": [
+      "Lycoris"
+    ],
+    "Lysander Scamander": [
+      "Lysander"
+    ],
+    "Lysandra Black": [
+      "Lysandra"
+    ],
+    "Millicent Bagnold": [
+      "Bagnold"
+    ],
+    "Madam Malkin": [
+      "Malkin"
+    ],
+    "Mafalda Hopkirk": [
+      "Mafalda",
+      "Hopkirk"
+    ],
+    "Magorian": [
+      "Magorian"
+    ],
+    "Malcom Preece": [
+      "Malcom",
+      "Preece"
+    ],
+    "Mandy Brocklehurst": [
+      "Mandy",
+      "Brocklehurst"
+    ],
+    "Marcus Flint": [
+      "Marcus",
+      "Flint"
+    ],
+    "Marge Dursley": [
+      "Marge"
+    ],
+    "Margot Droope": [
+      "Margot",
+      "Droope"
+    ],
+    "Marietta Edgecombe": [
+      "Marietta",
+      "Edgecombe"
+    ],
+    "Marius Black": [
+      "marius"
+    ],
+    "Mark Evans": [
+      "Mark Evans"
+    ],
+    "Marlene Mckinnon": [
+      "Marlene",
+      "Mckinnon"
+    ],
+    "Martha Steward": [
+      "Martha"
+    ],
+    "Marvolo Gaunt": [
+      "marvolo"
+    ],
+    "Mary Cattermole": [
+      "mary cattermole"
+    ],
+    "Mary Macdonald": [
+      "Macdonald"
+    ],
+    "Maxine O'flaherty": [
+      "Maxine",
+      "O'flaherty"
+    ],
+    "Megan Jones": [
+      "Megan"
+    ],
+    "Melania Macmillan": [
+      "Melania"
+    ],
+    "Merlin": [
+      "Merlin"
+    ],
+    "Merope Gaunt": [
+      "merope"
+    ],
+    "Merton Graves": [
+      "Merton"
+    ],
+    "Merula Snyde": [
+      "Merula",
+      "Snyde"
+    ],
+    "Michael Corner": [
+      "michael",
+      "Corner"
+    ],
+    "Miles Bletchley": [
+      "Miles",
+      "Bletchley"
+    ],
+    "Millicent Bulstrode": [
+      "Bulstrode"
+    ],
+    "Minerva Mcgonagall": [
+      "Minerva"
+    ],
+    "Mirror of Erised": [
+      "Mirror of Erised"
+    ],
+    "Molly Weasley": [
+      "Mrs. Weasley"
+    ],
+    "Molly Weasley II": [
+      "Molly Weasley II"
+    ],
+    "Morag Macdougal": [
+      "Morag"
+    ],
+    "Moran": [
+      "Moran"
+    ],
+    "Morfin Gaunt": [
+      "Morfin"
+    ],
+    "Morgana": [
+      "morgana"
+    ],
+    "Morrigan": [
+      "Morrigan"
+    ],
+    "Mrs. Lovegood": [
+      "Mrs. Lovegood"
+    ],
+    "Mrs. Norris": [
+      "Mors. Norris"
+    ],
+    "Mrs. Zabini": [
+      "Mrs. Zabini"
+    ],
+    "Mulciber": [
+      "Mulciber"
+    ],
+    "Mullet": [
+      "Mullet"
+    ],
+    "Mundungus Fletcher": [
+      "Mundungus",
+      "Fletcher"
+    ],
+    "Muriel Weasley": [
+      "Muriel"
+    ],
+    "Myron Wagtail": [
+      "Myron",
+      "Wagtail"
+    ],
+    "Myrtle": [
+      "Myrtle"
+    ],
+    "Nymphadora Tonks": [
+      "Nymphadora"
+    ],
+    "Nagini": [
+      "Nagini"
+    ],
+    "Narcissa Malfoy": [
+      "Narcissa"
+    ],
+    "Nearly Headless Nick": [
+      "Nearly Headless Nick"
+    ],
+    "Neville Longbottom": [
+      "Neville"
+    ],
+    "Newt Scamander": [
+      "Newt"
+    ],
+    "Nicolas Flamel": [
+      "Nicolas"
+    ],
+    "Nigel Wolpert": [
+      "nigel",
+      "Wolpert"
+    ],
+    "Norberta": [
+      "Norberta"
+    ],
+    "Olive Hornby": [
+      "Hornby"
+    ],
+    "Oliver Rivers": [
+      "Rivers"
+    ],
+    "Oliver Wood": [
+      "Wood"
+    ],
+    "Olympe Maxime": [
+      "Olympe",
+      "Maxime"
+    ],
+    "Orion Black": [
+      "Orion"
+    ],
+    "Orla Quirke": [
+      "orla",
+      "Quirke"
+    ],
+    "Orsino Thruston": [
+      "orsino",
+      "Thruston"
+    ],
+    "Owen Cauldwell": [
+      "owen",
+      "Cauldwell"
+    ],
+    "Pomona Sprout": [
+      "pomona",
+      "Sprout"
+    ],
+    "Pyotr Vulchanov": [
+      "pyotr",
+      "Vulchanov"
+    ],
+    "Padma Patil": [
+      "Padma"
+    ],
+    "Panju Patil": [
+      "Panju"
+    ],
+    "Pansy Parkinson": [
+      "Pansy",
+      "Parkinson"
+    ],
+    "Parvati Patil": [
+      "Parvati"
+    ],
+    "Peeves": [
+      "Peeves"
+    ],
+    "Penelope Clearwater": [
+      "Penelope",
+      "Clearwater"
+    ],
+    "Penny Haywood": [
+      "Penny",
+      "Haywood"
+    ],
+    "Percival Dumbledore": [
+      "Percival Dumbledore"
+    ],
+    "Percival Graves": [
+      "Perceival Graves"
+    ],
+    "Percy weasley": [
+      "percy"
+    ],
+    "Perenelle Flamel": [
+      "Perenelle"
+    ],
+    "Peter Pettigrew": [
+      "Peter",
+      "Pettigrew"
+    ],
+    "Petunia Dursley": [
+      "Petunia"
+    ],
+    "Phineas Black": [
+      "Phineas Black"
+    ],
+    "Phineas Nigellus": [
+      "Phineas Nigellus"
+    ],
+    "Phoebe Black": [
+      "Phoebe"
+    ],
+    "Piers Polkiss": [
+      "Piers",
+      "Polkiss"
+    ],
+    "Pius Thicknesse": [
+      "Pius",
+      "Thicknesse"
+    ],
+    "Poliakoff": [
+      "Poliakoff"
+    ],
+    "Pollux Black": [
+      "Pollux"
+    ],
+    "Polly Chapman": [
+      "Polly",
+      "Chapman"
+    ],
+    "Poppy Pomfrey": [
+      "Poppy",
+      "Pomfrey"
+    ],
+    "Porpentina Scamander": [
+      "Porpentina"
+    ],
+    "Proudfoot": [
+      "Proudfoot"
+    ],
+    "Quirinus Quirrell": [
+      "Quirinus",
+      "Quirrell"
+    ],
+    "Rolanda Hooch": [
+      "Rolanda",
+      "Hooch"
+    ],
+    "Rabastan Lestrange": [
+      "Rabastan"
+    ],
+    "Reg Cattermole": [
+      "Reg Cattermnole"
+    ],
+    "Reginald Cattermole": [
+      "Reginald"
+    ],
+    "Regulus Black": [
+      "Regulus"
+    ],
+    "Remus Lupin": [
+      "Remus"
+    ],
+    "Rionach Sayre Sr.": [
+      "Rionach Sayre Sr."
+    ],
+    "Rionach Sayre Jr.": [
+      "Rionach Sayre JR."
+    ],
+    "Rita Skeeter": [
+      "Rita",
+      "Skeeter"
+    ],
+    "Ritchie Coote": [
+      "Ritchie",
+      "Coote"
+    ],
+    "Robert mcGonagall Jr.": [
+      "Robert mcGonagal Jr."
+    ],
+    "Robert mcGonagall Sr.": [
+      "Robert mcGonagall Sr."
+    ],
+    "Rodolphus Lestrange": [
+      "Rodolphus"
+    ],
+    "Roger Davies": [
+      "Roger Davies"
+    ],
+    "Rolf Scamander": [
+      "Rolf"
+    ],
+    "Romilda Vane": [
+      "Romilda Vane"
+    ],
+    "Ron weasley": [
+      "Ron",
+      "Ronald"
+    ],
+    "Ronan": [
+      "Ronan"
+    ],
+    "Rose weasley": [
+      "Rose Weasley"
+    ],
+    "Rose Zeller": [
+      "Zeller"
+    ],
+    "Rosmerta": [
+      "Rosmerta"
+    ],
+    "Rowan Khanna": [
+      "Rowan",
+      "Khanna"
+    ],
+    "Rowena Ravenclaw": [
+      "Rowena"
+    ],
+    "Roxanne Weasley": [
+      "Roxanne"
+    ],
+    "Rubeus Hagrid": [
+      "Rubeus",
+      "Hagrid"
+    ],
+    "Rufus Scrimgeour": [
+      "Rufus",
+      "Scrimgeour"
+    ],
+    "Ryan": [
+      "Ryan"
+    ],
+    "Sir Cadogan": [
+      "Sir Cadogan"
+    ],
+    "Silvanus Kettleburn": [
+      "Silvanus",
+      "Kettleburn"
+    ],
+    "Septima Vector": [
+      "Septima",
+      "Vector"
+    ],
+    "Salazar Slytherin": [
+      "Salazar"
+    ],
+    "Sally-Anne Perkins": [
+      "Sally-Anne",
+      "Perkins"
+    ],
+    "Sanguini": [
+      "Sanguini"
+    ],
+    "Savage": [
+      "Savage"
+    ],
+    "Scabior": [
+      "Scabior"
+    ],
+    "Scorpius Malfoy": [
+      "Scorpius"
+    ],
+    "Seamus Finnigan": [
+      "Samus",
+      "Finnigan"
+    ],
+    "Selwyn": [
+      "Selwyn"
+    ],
+    "Septimus Weasley": [
+      "Septimus"
+    ],
+    "Severus Snape": [
+      "Severus",
+      "Snape"
+    ],
+    "Sirius Black": [
+      "Sirius Black"
+    ],
+    "Sophie Roper": [
+      "Sophie",
+      "Roper"
+    ],
+    "Sorting Hat": [
+      "Sorting Hat"
+    ],
+    "Stan Shunpike": [
+      "Shunpike"
+    ],
+    "Stebbins": [
+      "Stebbins"
+    ],
+    "Stephen Cornfoot": [
+      "Stephen",
+      "Cornfoot"
+    ],
+    "Stewart Ackerley": [
+      "Stewart",
+      "Ackerley"
+    ],
+    "Sturgis Podmore": [
+      "Sturgis",
+      "Podmore"
+    ],
+    "Sue Li": [
+      "Sue Li"
+    ],
+    "Summerby": [
+      "Summerby"
+    ],
+    "Susan Bones": [
+      "Susan"
+    ],
+    "Sybill Trelawney": [
+      "Sybill",
+      "Trelawney"
+    ],
+    "Thorfinn Rowle": [],
+    "Ted Tonks": [
+      "Ted Tonks"
+    ],
+    "Teddy Lupin": [
+      "Teddy"
+    ],
+    "Terence Higgins": [
+      "Terence",
+      "Higgins"
+    ],
+    "Terry Boot": [
+      "Terry"
+    ],
+    "The Fat Lady": [
+      "The Fat Lady"
+    ],
+    "Theodore Nott": [
+      "Theo"
+    ],
+    "Theseus Scamander": [
+      "Theseus"
+    ],
+    "Thomas Riddle": [
+      "Thomas"
+    ],
+    "Tobias Snape": [
+      "Tobias"
+    ],
+    "Tom Riddle Jr.": [
+      "Tom Riddle"
+    ],
+    "Tom Riddle Sr.": [
+      "Tom Riddle Sr."
+    ],
+    "Tracey Davis": [
+      "Tracey",
+      "Davis"
+    ],
+    "Travers": [
+      "Travers"
+    ],
+    "Trevor": [
+      "Trevor"
+    ],
+    "Troy": [
+      "Troy"
+    ],
+    "Vaisey": [
+      "Vaisey"
+    ],
+    "Verity": [
+      "Verity"
+    ],
+    "Vernon Dursley": [
+      "Vernon"
+    ],
+    "Victoire Weasley": [
+      "Victoire"
+    ],
+    "Viktor Krum": [
+      "Viktor",
+      "Krum"
+    ],
+    "Vincent Crabbe": [
+      "Vincent"
+    ],
+    "Wilhelmina Grubbly-Plank": [
+      "Wilhelmina",
+      "Grubbly-Plank"
+    ],
+    "Walburga Black": [
+      "Walburga"
+    ],
+    "Walden Macnair": [
+      "Walden",
+      "Macnair"
+    ],
+    "Wayne Hopkins": [
+      "Wayne",
+      "hopkins"
+    ],
+    "Webster Boot": [
+      "Webster"
+    ],
+    "Whomping Willow": [
+      "Whomping Willow"
+    ],
+    "William Sonoma": [
+      "Sonoma"
+    ],
+    "William the Pukwudgie": [
+      "William the Pukwudgie"
+    ],
+    "Winky": [
+      "Winky"
+    ],
+    "Xenophilius Lovegood": [
+      "Xenophilius"
+    ],
+    "Yann Fredericks": [
+      "Yann",
+      "Fredericks"
+    ],
+    "Yaxley": [
+      "Yaxley"
+    ],
+    "Zacharias Smith": [
+      "Zacharias"
+    ],
+    "Úrsula Flint": [
+      "Ursula"
+    ]
+  }
+}
