@@ -127,6 +127,7 @@ class FanFicSpider(scrapy.Spider):
     name = "fanFic"
     start_urls = [
         'https://www.fanfiction.net/book/Harry-Potter/?&srt=4&r=103'
+        #'https://www.fanfiction.net/u/884184/S-TarKan'
         #'https://www.fanfiction.net/s/13025005/1/A-Twist-In-Time'
         #'https://www.fanfiction.net/u/4805578/vandenburgs'
         #'https://www.fanfiction.net/s/13090372/1/This-Labyrinth-of-Suffering'
@@ -141,20 +142,22 @@ class FanFicSpider(scrapy.Spider):
         'SCHEDULER_DISK_QUEUE' : 'scrapy.squeue.PickleFifoDiskQueue',
         'SCHEDULER_MEMORY_QUEUE' : 'scrapy.squeue.FifoMemoryQueue',
     }
-    
+       
     def parse(self, response):
         nextLinks = {}
         for elem in response.xpath('//a[@class="stitle"]').xpath(".//@href"):
             nextLinks[elem.extract()] = self.parseStory
         for link, func in nextLinks.items():
             yield response.follow(link, callback=func)
-
+    
     def parseUserPage(self, response):
         profile_top = response.xpath('//div[@id="content_wrapper_inner"]')
         nextLinks = {}
+        stories = []
         #follow links to their stories and reviews
         for elem in response.xpath('//div[@class="z-list mystories"]').xpath(".//@href"):
             if(isStoryLink(elem.extract())):
+                stories.append(elem.extract())
                 nextLinks[elem.extract()] = self.parseStory
             if(isReviewLink(elem.extract())):
                 nextLinks[elem.extract()] = self.parseReview
@@ -183,7 +186,8 @@ class FanFicSpider(scrapy.Spider):
         yield {
             'pageType': 'user',
             'name': userName,
-            'favorites': favorites
+            'favorites': favorites,
+            'stories' : stories
         }
         
         for link, func in nextLinks.items():
